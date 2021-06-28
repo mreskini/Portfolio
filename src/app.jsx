@@ -1,8 +1,9 @@
+import Hero from "./components/hero";
 
 function App() {
   return (
-    <div className="App">
-      Hello world neo is here!
+    <div>
+      <Hero />
     </div>
   );
 }
