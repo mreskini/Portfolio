@@ -1,6 +1,6 @@
 :root{
   --theme-primary-color: #0F1624;
-  --theme-secondary-color: #ffffff;
+  --theme-secondary-color: #0d1420;
 }
 
 *{
@@ -12,6 +12,9 @@ body{
   background-color: var(--theme-primary-color) !important;
 }
 /* begin:general */
+.bg-secondary-color{
+  background-color: var(--theme-secondary-color) !important;
+}
 .on-hover-underline{
   text-decoration: none;
   transition: 500ms !important;
