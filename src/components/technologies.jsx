@@ -1,4 +1,4 @@
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di'
 export default function Technologies(){
     return(
         <div className="container-fluid position-relative">
