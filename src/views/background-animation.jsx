@@ -1,6 +1,6 @@
 import React from 'react';
 const BackgroundAnimation = () => (
-  <div className="w-50 position-absolute p-5 bg-image">
+  <div className="w-50 position-absolute px-4 bg-image">
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
