@@ -21,13 +21,13 @@ export default function Header(){
                                 <Nav.Link className="h5 my-auto text-light on-hover-underline">About</Nav.Link>
                             </Nav>
                             <Nav className="ml-auto">
-                                <Nav.Link className="h5 my-auto text-light">
+                                <Nav.Link className="h5 my-auto text-light icon-hoverable">
                                     <AiFillGithub size="2rem" />
                                 </Nav.Link>
-                                <Nav.Link className="h5 my-auto text-light">
+                                <Nav.Link className="h5 my-auto text-light icon-hoverable">
                                     <AiFillLinkedin size="2rem" />
                                 </Nav.Link>
-                                <Nav.Link className="h5 my-auto text-light">
+                                <Nav.Link className="h5 my-auto text-light icon-hoverable">
                                     <AiFillInstagram size="2rem"/>
                                 </Nav.Link>
                             </Nav>

@@ -29,7 +29,7 @@ export default function Projects(){
     const createPortfolioCardTemplate = (title, description, image) => {
         return(
             <div className="col-lg-6 px-5 py-4">
-                <div className="shadow-light">
+                <div className="shadow-light bg-secondary-color">
                     <img src={image} alt="Sample" style={{maxHeight: "300px"}} className="img-fluid rounded h-100" />
                     <div className="text-light h2 font-weight-light p-3">
                         {title}
