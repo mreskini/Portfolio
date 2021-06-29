@@ -25,6 +25,16 @@ body{
   border-radius: 10px;
   background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
 }
+.hr-yellow-line{
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  border: 0px;
+  background: rgb(208, 187, 87);
+}
+.shadow-light{
+  box-shadow: 0 0 .25rem rgba(255,255,255,0.50)!important;
+}
 /* end:general */
 /* begin:hero-styles */
 .bg-image{
