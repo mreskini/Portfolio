@@ -5,9 +5,12 @@ import Technologies from "./components/technologies"
 import AboutMe from "./components/about-me"
 import Accomplishments from "./components/accomplishments"
 import ContactMe from "./components/contact-me"
+// Coded By Neo
+// 1 July 2021
+// 03:56 AM
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <Projects />
@@ -15,7 +18,7 @@ function App() {
       <AboutMe />
       <Accomplishments />
       <ContactMe />
-    </div>
+    </>
   )
 }
 
