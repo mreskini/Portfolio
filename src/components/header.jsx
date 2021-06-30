@@ -6,7 +6,7 @@ export default function Header(){
         <header>
             <div className="container-fluid p-0">
                 <div className="col-12 col-lg-10 m-0 mx-auto">
-                    <Navbar variant="light"  className="py-4" expand="lg" sticky="top">
+                    <Navbar variant="dark"  className="py-4" expand="lg" sticky="top">
                         <div className="row m-0">
                             <DiCssdeck className="text-light h1 my-auto"/>
                             <div className="text-light h2 mt-1 mr-5">
@@ -14,7 +14,7 @@ export default function Header(){
                             </div>
                         </div>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav" className="bg-under-large-screen-light">
+                        <Navbar.Collapse id="basic-navbar-nav" className="bg-under-large-screen-light ml-2 ml-lg-0 mt-lg-0 mt-3">
                             <Nav className="mr-auto">
                                 <Nav.Link className="h5 my-auto text-light on-hover-underline">Projects</Nav.Link>
                                 <Nav.Link className="h5 my-auto text-light on-hover-underline">Technologies</Nav.Link>
