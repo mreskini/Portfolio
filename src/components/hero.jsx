@@ -3,9 +3,9 @@ export default function Hero(){
     return(
         <div className="container-fluid position-relative">
             <div className="row m-0">
-                <div className="col-lg-10 mx-auto my-5 py-3">
+                <div className="col-lg-10 mx-auto my-lg-5 py-3">
                     <div className="col-lg-8">
-                        <div className="display-4 text-white font-weight-bold">
+                        <div className="display-4 hero-title text-white font-weight-bold">
                             Welcome To
                             <br />
                             My Personal Portfolio
