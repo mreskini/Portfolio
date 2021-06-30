@@ -3,6 +3,7 @@ import image1 from "../assets/images/sample-1.png"
 import image2 from "../assets/images/sample-2.png"
 import image3 from "../assets/images/sample-3.jpg"
 import image4 from "../assets/images/sample-4.jpg"
+import TitleView from "../views/title-view"
 export default function Projects(){
     const [samples, setSamples] = useState([
         {
@@ -59,11 +60,7 @@ export default function Projects(){
         <div className="container-fluid position-relative">
             <div className="row m-0">
                 <div className="col-lg-10 mx-auto my-5 py-3">
-                    <div className="display-4 text-light mb-4">
-                        <div className="hr-line mb-3"></div>
-                        •
-                        Projects
-                    </div>
+                    {TitleView("Projects")}
                     <div className="row">
                         {
                             samples.map(sample => createPortfolioCardTemplate(sample.title, sample.description, sample.image))
