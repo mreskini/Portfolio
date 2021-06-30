@@ -1,3 +1,5 @@
+/* begin:general */
+
 :root{
   --theme-primary-color: #0F1624;
   --theme-secondary-color: #0d1420;
@@ -11,7 +13,6 @@
 body{
   background-color: var(--theme-primary-color) !important;
 }
-/* begin:general */
 .bg-secondary-color{
   background-color: var(--theme-secondary-color) !important;
 }
@@ -54,11 +55,14 @@ body{
 .icon-hoverable:hover{
   background-color: #212D45;
 }
+
 /* end:general */
+
 /* begin:hero-styles */
+
 .bg-image{
   right: 0px;
-  top: 0px;
+  top: -50px;
 }
 .call-to-action{
   color: white !important;
@@ -72,4 +76,5 @@ body{
 .call-to-action:hover{
   background-image: linear-gradient(270deg, rgb(0, 219, 216) 0%, rgb(177, 51, 255) 100%) !important;
 }
+
 /* end:hero-styles */
