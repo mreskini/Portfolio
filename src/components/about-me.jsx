@@ -1,8 +1,7 @@
-import { useState } from "react"
+import TimelineView from "../views/time-line-view"
 import TitleView from "../views/title-view"
-
 export default function AboutMe(){
-    const [cards, setCards] = useState([
+    const cards = [
         {
             title: "2018",
             description: "Started my journey",
@@ -19,19 +18,7 @@ export default function AboutMe(){
             title: "2021",
             description: "Shared my projects with the world",
         },
-    ])
-    const createAboutMeCardTemplate = (title, description) => {
-        return(
-            <div className="col-lg-3 p-3">
-                <div className="text-light h2 row m-0">
-                    {title} <div className="hr-line my-auto ml-4"></div>
-                </div>
-                <div className="text-light h6 font-weight-light mt-3">
-                    {description}
-                </div>
-            </div>
-        )
-    }
+    ]
     return(
         <div className="container-fluid p-0 position-relative">
             <div className="row m-0">
@@ -44,7 +31,7 @@ export default function AboutMe(){
                     </div>
                     <div className="mt-5 row m-0">
                         {
-                            cards.map(card => createAboutMeCardTemplate(card.title, card.description))
+                            cards.map(card => TimelineView(card.title, card.description))
                         }
                     </div>
                 </div>
