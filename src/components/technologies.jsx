@@ -49,7 +49,7 @@ export default function Technologies(){
                     {
                         TitleView("Technologies")
                     }
-                    <div className="h4 font-weight-light text-secondary col-lg-10 col-12 bg-danger">
+                    <div className="h4 font-weight-light text-secondary col-lg-10 col-12">
                         I've worked with a range a technologies in the web development world. From Back-end To Design
                     </div>
                     <div className="mt-5 row m-0">
