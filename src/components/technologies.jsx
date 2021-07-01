@@ -1,4 +1,5 @@
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di'
+import TechnologyCardView from '../views/technology-card-view'
 import TitleView from '../views/title-view'
 export default function Technologies(){
     const technologies = [
@@ -18,30 +19,7 @@ export default function Technologies(){
             description: "Tools like Figma",
         },
     ]
-    const createTechnologyCardTemplate = (icon, title, description) => {
-        return(
-            <>
-                <div className="col-lg-3 p-3 mb-4 mb-lg-0 bg-secondary-color shadow-light rounded">
-                    {
-                        icon
-                    }
-                    <div className="text-light h2">
-                        {
-                            title
-                        }
-                    </div>
-                    <div className="text-light h4 font-weight-light">
-                        Experience with
-                        <br />
-                        {
-                            description
-                        }
-                    </div>
-                </div>
-                <div className="col-lg-1"></div>
-            </>
-        )
-    }
+
     return(
         <div className="container-fluid p-0 position-relative">
             <div className="row m-0">
@@ -54,7 +32,7 @@ export default function Technologies(){
                     </div>
                     <div className="mt-5 row m-0">
                         {
-                            technologies.map( technology => createTechnologyCardTemplate(technology.icon, technology.title, technology.description))
+                            technologies.map( technology => TechnologyCardView(technology.icon, technology.title, technology.description))
                         }
                     </div>
                 </div>
