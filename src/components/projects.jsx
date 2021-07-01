@@ -5,7 +5,7 @@ import image3 from "../assets/images/sample-3.jpg"
 import image4 from "../assets/images/sample-4.jpg"
 import TitleView from "../views/title-view"
 export default function Projects(){
-    const [samples, setSamples] = useState([
+    const samples = [
         {
             title: "MERN Memories",
             description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
@@ -26,7 +26,7 @@ export default function Projects(){
             description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
             image: image4,
         },
-    ])
+    ]
     const createPortfolioCardTemplate = (title, description, image) => {
         return(
             <div className="col-lg-6 px-5 py-4">
@@ -57,7 +57,7 @@ export default function Projects(){
         )
     }
     return(
-        <div className="container-fluid position-relative">
+        <div className="container-fluid p-0 position-relative">
             <div className="row m-0">
                 <div className="col-lg-10 mx-auto my-5 py-3">
                     {TitleView("Projects")}

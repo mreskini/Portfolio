@@ -1,7 +1,7 @@
 import BackgroundAnimation from "../views/background-animation"
 export default function Hero(){
     return(
-        <div className="container-fluid position-relative">
+        <div className="container-fluid p-0 position-relative">
             <div className="row m-0">
                 <div className="col-lg-10 mx-auto my-lg-5 py-3">
                     <div className="col-lg-8">

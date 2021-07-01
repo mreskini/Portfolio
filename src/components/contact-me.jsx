@@ -1,7 +1,7 @@
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 export default function ContactMe(){
     return(
-        <div className="container-fluid position-relative">
+        <div className="container-fluid p-0 position-relative">
             <div className="row m-0">
                 <div className="col-lg-10 mx-auto pb-5 pt-3">
                     <div className="hr-light"></div>

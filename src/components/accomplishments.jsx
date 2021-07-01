@@ -32,7 +32,7 @@ export default function Accomplishments(){
         )
     }
     return(
-        <div className="container-fluid position-relative">
+        <div className="container-fluid p-0 position-relative">
             <div className="row m-0">
                 <div className="col-lg-10 mx-auto my-5 py-3">
                     {
