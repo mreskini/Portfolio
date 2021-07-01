@@ -26,7 +26,7 @@ export default function AboutMe(){
                     {
                         TitleView("About Me")
                     }
-                    <div className="h3 font-weight-light text-secondary col-lg-10">
+                    <div className="h4 font-weight-light text-secondary col-lg-10">
                         The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
                     </div>
                     <div className="mt-5 row m-0">

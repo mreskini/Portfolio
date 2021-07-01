@@ -1,4 +1,5 @@
 import { useState } from "react"
+import AccomplishmentCardView from "../views/accomplishment-card-view"
 import TitleView from "../views/title-view"
 
 export default function Accomplishments(){
@@ -16,21 +17,7 @@ export default function Accomplishments(){
             description: "Github Followers",
         },
     ])
-    const createAccomplishmentsCardTemplate = (title, description) =>{
-        return(
-            <>
-                <div className="col-lg-3 p-4 bg-secondary-color text-center shadow-light rounded">
-                    <div className="text-light h2">
-                        {title}
-                    </div>
-                    <div className="text-light h4 font-weight-light mt-4">
-                        {description}
-                    </div>
-                </div>
-                <div className="col-lg-1"></div>
-            </>
-        )
-    }
+    
     return(
         <div className="container-fluid p-0 position-relative">
             <div className="row m-0">
@@ -40,7 +27,7 @@ export default function Accomplishments(){
                     }
                     <div className="mt-5 row m-0">
                     {
-                        cards.map(card => createAccomplishmentsCardTemplate(card.title, card.description))
+                        cards.map(card => AccomplishmentCardView(card.title, card.description))
                     }
                     </div>
                 </div>
