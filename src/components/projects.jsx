@@ -1,4 +1,3 @@
-import { useState } from "react"
 import image1 from "../assets/images/sample-1.png"
 import image2 from "../assets/images/sample-2.png"
 import image3 from "../assets/images/sample-3.jpg"
@@ -6,7 +5,7 @@ import image4 from "../assets/images/sample-4.jpg"
 import PortfolioCardView from "../views/portfolio-card-view"
 import TitleView from "../views/title-view"
 export default function Projects(){
-    const samples = [
+    const projects = [
         {
             title: "MERN Memories",
             description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
@@ -35,7 +34,7 @@ export default function Projects(){
                     {TitleView("Projects")}
                     <div className="row">
                         {
-                            samples.map(sample => PortfolioCardView(sample.title, sample.description, sample.image))
+                            projects.map(sample => PortfolioCardView(sample.title, sample.description, sample.image))
                         }
                     </div>
                 </div>
