@@ -5,7 +5,7 @@ export default function PortfolioCardView(title, description, image) {
                 <img src={image} alt="Project" style={{maxHeight: "300px"}} className="img-fluid rounded h-lg-100" />
                 <div className="text-light h2 font-weight-light p-3">
                     {title}
-                </div>w
+                </div>
                 <div className="p-3 text-secondary">
                     {description}
                 </div>
