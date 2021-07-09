@@ -1,6 +1,6 @@
 import AccomplishmentCardView from "../views/accomplishment-card-view"
 import TitleView from "../views/title-view"
-import { accomplishments } from "../data/data"
+import { accomplishments } from "../model/data"
 export default function Accomplishments(){
     return(
         <div className="container-fluid p-0 position-relative">

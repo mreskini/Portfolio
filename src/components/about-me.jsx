@@ -1,6 +1,6 @@
 import TimelineView from "../views/time-line-view"
 import TitleView from "../views/title-view"
-import { cards } from "../data/data"
+import { cards } from "../model/data"
 export default function AboutMe(){
     return(
         <div className="container-fluid p-0 position-relative" id="about">

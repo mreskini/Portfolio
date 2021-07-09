@@ -1,6 +1,6 @@
 import PortfolioCardView from "../views/portfolio-card-view"
 import TitleView from "../views/title-view"
-import { projects } from "../data/data"
+import { projects } from "../model/data"
 export default function Projects(){
     return(
         <div className="container-fluid p-0 position-relative" id="projects">

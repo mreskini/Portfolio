@@ -1,6 +1,6 @@
 import TechnologyCardView from '../views/technology-card-view'
 import TitleView from '../views/title-view'
-import {technologies} from '../data/data'
+import {technologies} from '../model/data'
 export default function Technologies(){
     return(
         <div className="container-fluid p-0 position-relative" id="technologies">
