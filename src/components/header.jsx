@@ -14,7 +14,7 @@ export default function Header() {
             <div className="container-fluid p-0">
                 <div className="col-12 col-lg-10 m-0 mx-auto">
                     <Navbar variant="dark" className="py-4" expand="lg" sticky="top">
-                        <a href="/" className="btn">
+                        <a href="/" className="btn p-0">
                             <div className="row m-0">
                                 <DiCssdeck className="text-light h1 my-auto" />
                                 <div className="text-light h2 mt-1 mr-5">
