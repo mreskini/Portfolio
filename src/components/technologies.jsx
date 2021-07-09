@@ -1,25 +1,7 @@
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di'
 import TechnologyCardView from '../views/technology-card-view'
 import TitleView from '../views/title-view'
+import {technologies} from '../data/data'
 export default function Technologies(){
-    const technologies = [
-        {
-            icon: <DiReact size="3rem" className="text-light mb-3" />,
-            title: "Front-End",
-            description: "React.js",
-        },
-        {
-            icon: <DiFirebase size="3rem" className="text-light mb-3" />,
-            title: "Back-End",
-            description: "Node and Databases",
-        },
-        {
-            icon: <DiZend  size="3rem" className="text-light mb-3" />,
-            title: "UI/UX",
-            description: "Tools like Figma",
-        },
-    ]
-
     return(
         <div className="container-fluid p-0 position-relative" id="technologies">
             <div className="row m-0">

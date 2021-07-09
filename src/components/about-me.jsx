@@ -1,24 +1,7 @@
 import TimelineView from "../views/time-line-view"
 import TitleView from "../views/title-view"
+import { cards } from "../data/data"
 export default function AboutMe(){
-    const cards = [
-        {
-            title: "2018",
-            description: "Started my journey",
-        },
-        {
-            title: "2019",
-            description: "Worked as a freelance developer",
-        },
-        {
-            title: "2020",
-            description: "Founded JavaScript Mastery",
-        },
-        {
-            title: "2021",
-            description: "Shared my projects with the world",
-        },
-    ]
     return(
         <div className="container-fluid p-0 position-relative" id="about">
             <div className="row m-0">

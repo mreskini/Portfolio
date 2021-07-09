@@ -1,7 +1,6 @@
 import { Navbar, Nav } from 'react-bootstrap'
 import { DiCssdeck } from 'react-icons/di'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
-import { useHistory } from 'react'
 
 export default function Header() {
     const scrollToView = (id) => {
@@ -16,7 +15,7 @@ export default function Header() {
                     <Navbar variant="dark" className="py-4" expand="lg" sticky="top">
                         <a href="/" className="btn p-0">
                             <div className="row m-0">
-                                <DiCssdeck className="text-light h1 my-auto" />
+                                <DiCssdeck className="text-light h1 my-auto"/>
                                 <div className="text-light h2 mt-1 mr-5">
                                     Portfolio
                                 </div>
