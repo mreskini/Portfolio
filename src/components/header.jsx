@@ -10,7 +10,7 @@ export default function Header() {
         })
     }
     return (
-        <header>
+        <header id="header">
             <div className="container-fluid p-0">
                 <div className="col-12 col-lg-10 m-0 mx-auto">
                     <Navbar variant="dark" className="py-4" expand="lg" sticky="top">

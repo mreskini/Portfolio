@@ -60,7 +60,9 @@ body{
     font-size: 35px !important;
   }
 }
-
+.index-999{
+  z-index: 999 !important;
+}
 /* end:general */
 
 /* begin:hero-styles */
@@ -92,6 +94,11 @@ body{
 
 /* end:hero-styles */
 
-/* begin: projects-styles */
-
-/* end: projects-styles */
+/* begin: footer */
+.btn-to-top{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  margin: 15px;
+}
+/* end: footer */
